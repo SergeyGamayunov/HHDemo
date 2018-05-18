@@ -67,6 +67,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		347ED11420AE9D5700C8FBB4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				341EBB1A20AE948500E75F55 /* HHEndpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		347ED11520AE9D6200C8FBB4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				34DCBAD920AE0B7900DFECAD /* Extensions.swift */,
+				341EBB1820AE88C800E75F55 /* HHFunction.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		347ED11620AE9D6F00C8FBB4 /* Storyboards & Assets */ = {
+			isa = PBXGroup;
+			children = (
+				34DCBAC720ADFBD700DFECAD /* Main.storyboard */,
+				34DCBACA20ADFBD800DFECAD /* Assets.xcassets */,
+				34DCBACC20ADFBD800DFECAD /* LaunchScreen.storyboard */,
+			);
+			path = "Storyboards & Assets";
+			sourceTree = "<group>";
+		};
+		347ED11720AE9D8F00C8FBB4 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				34DCBAD520AE000000DFECAD /* HHTextFieldView.xib */,
+				34DCBAD720AE01B200DFECAD /* HHTextFieldView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 		34DCBAB720ADFBD700DFECAD = {
 			isa = PBXGroup;
 			children = (
@@ -89,16 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				34DCBAC320ADFBD700DFECAD /* AppDelegate.swift */,
-				34DCBAC520ADFBD700DFECAD /* AuthViewController.swift */,
-				34DCBAC720ADFBD700DFECAD /* Main.storyboard */,
-				34DCBACA20ADFBD800DFECAD /* Assets.xcassets */,
-				34DCBACC20ADFBD800DFECAD /* LaunchScreen.storyboard */,
 				34DCBACF20ADFBD800DFECAD /* Info.plist */,
-				34DCBAD520AE000000DFECAD /* HHTextFieldView.xib */,
-				34DCBAD720AE01B200DFECAD /* HHTextFieldView.swift */,
-				34DCBAD920AE0B7900DFECAD /* Extensions.swift */,
-				341EBB1820AE88C800E75F55 /* HHFunction.swift */,
-				341EBB1A20AE948500E75F55 /* HHEndpoint.swift */,
+				347ED11620AE9D6F00C8FBB4 /* Storyboards & Assets */,
+				347ED11520AE9D6200C8FBB4 /* Helpers */,
+				347ED11420AE9D5700C8FBB4 /* API */,
+				34DCBAC520ADFBD700DFECAD /* AuthViewController.swift */,
+				347ED11720AE9D8F00C8FBB4 /* Custom Views */,
 			);
 			path = HeadsAndHandsDemo;
 			sourceTree = "<group>";
