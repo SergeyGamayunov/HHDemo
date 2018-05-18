@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341EBB1920AE88C800E75F55 /* HHFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBB1820AE88C800E75F55 /* HHFunction.swift */; };
+		341EBB1B20AE948500E75F55 /* HHEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBB1A20AE948500E75F55 /* HHEndpoint.swift */; };
 		34DCBAC420ADFBD700DFECAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCBAC320ADFBD700DFECAD /* AppDelegate.swift */; };
-		34DCBAC620ADFBD700DFECAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCBAC520ADFBD700DFECAD /* ViewController.swift */; };
+		34DCBAC620ADFBD700DFECAD /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCBAC520ADFBD700DFECAD /* AuthViewController.swift */; };
 		34DCBAC920ADFBD700DFECAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DCBAC720ADFBD700DFECAD /* Main.storyboard */; };
 		34DCBACB20ADFBD800DFECAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DCBACA20ADFBD800DFECAD /* Assets.xcassets */; };
 		34DCBACE20ADFBD800DFECAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DCBACC20ADFBD800DFECAD /* LaunchScreen.storyboard */; };
+		34DCBAD620AE000000DFECAD /* HHTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DCBAD520AE000000DFECAD /* HHTextFieldView.xib */; };
+		34DCBAD820AE01B200DFECAD /* HHTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCBAD720AE01B200DFECAD /* HHTextFieldView.swift */; };
+		34DCBADA20AE0B7900DFECAD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCBAD920AE0B7900DFECAD /* Extensions.swift */; };
+		B447FBC1CE2072024F4B49FE /* Pods_HeadsAndHandsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B604B702A5FB31302FDD3291 /* Pods_HeadsAndHandsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FA4FF7A57ABF86A6DACE4E6 /* Pods-HeadsAndHandsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadsAndHandsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeadsAndHandsDemo/Pods-HeadsAndHandsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		341EBB1820AE88C800E75F55 /* HHFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHFunction.swift; sourceTree = "<group>"; };
+		341EBB1A20AE948500E75F55 /* HHEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHEndpoint.swift; sourceTree = "<group>"; };
 		34DCBAC020ADFBD700DFECAD /* HeadsAndHandsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadsAndHandsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DCBAC320ADFBD700DFECAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34DCBAC520ADFBD700DFECAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34DCBAC520ADFBD700DFECAD /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		34DCBAC820ADFBD700DFECAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34DCBACA20ADFBD800DFECAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34DCBACD20ADFBD800DFECAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34DCBACF20ADFBD800DFECAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DCBAD520AE000000DFECAD /* HHTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHTextFieldView.xib; sourceTree = "<group>"; };
+		34DCBAD720AE01B200DFECAD /* HHTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHTextFieldView.swift; sourceTree = "<group>"; };
+		34DCBAD920AE0B7900DFECAD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7510D43F32E2C128ED70F816 /* Pods-HeadsAndHandsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadsAndHandsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadsAndHandsDemo/Pods-HeadsAndHandsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B604B702A5FB31302FDD3291 /* Pods_HeadsAndHandsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadsAndHandsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B447FBC1CE2072024F4B49FE /* Pods_HeadsAndHandsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D8A6CF4AE917CD7D463873F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7510D43F32E2C128ED70F816 /* Pods-HeadsAndHandsDemo.debug.xcconfig */,
+				1FA4FF7A57ABF86A6DACE4E6 /* Pods-HeadsAndHandsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B58431773B55203D19A1D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B604B702A5FB31302FDD3291 /* Pods_HeadsAndHandsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		34DCBAB720ADFBD700DFECAD = {
 			isa = PBXGroup;
 			children = (
 				34DCBAC220ADFBD700DFECAD /* HeadsAndHandsDemo */,
 				34DCBAC120ADFBD700DFECAD /* Products */,
+				0D8A6CF4AE917CD7D463873F /* Pods */,
+				2B58431773B55203D19A1D3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				34DCBAC320ADFBD700DFECAD /* AppDelegate.swift */,
-				34DCBAC520ADFBD700DFECAD /* ViewController.swift */,
+				34DCBAC520ADFBD700DFECAD /* AuthViewController.swift */,
 				34DCBAC720ADFBD700DFECAD /* Main.storyboard */,
 				34DCBACA20ADFBD800DFECAD /* Assets.xcassets */,
 				34DCBACC20ADFBD800DFECAD /* LaunchScreen.storyboard */,
 				34DCBACF20ADFBD800DFECAD /* Info.plist */,
+				34DCBAD520AE000000DFECAD /* HHTextFieldView.xib */,
+				34DCBAD720AE01B200DFECAD /* HHTextFieldView.swift */,
+				34DCBAD920AE0B7900DFECAD /* Extensions.swift */,
+				341EBB1820AE88C800E75F55 /* HHFunction.swift */,
+				341EBB1A20AE948500E75F55 /* HHEndpoint.swift */,
 			);
 			path = HeadsAndHandsDemo;
 			sourceTree = "<group>";
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34DCBAD220ADFBD800DFECAD /* Build configuration list for PBXNativeTarget "HeadsAndHandsDemo" */;
 			buildPhases = (
+				2F31C8BA568072BD1594FFE0 /* [CP] Check Pods Manifest.lock */,
 				34DCBABC20ADFBD700DFECAD /* Sources */,
 				34DCBABD20ADFBD700DFECAD /* Frameworks */,
 				34DCBABE20ADFBD700DFECAD /* Resources */,
+				0958A3D56E59AABB423A622A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DCBAD620AE000000DFECAD /* HHTextFieldView.xib in Resources */,
 				34DCBACE20ADFBD800DFECAD /* LaunchScreen.storyboard in Resources */,
 				34DCBACB20ADFBD800DFECAD /* Assets.xcassets in Resources */,
 				34DCBAC920ADFBD700DFECAD /* Main.storyboard in Resources */,
@@ -130,13 +172,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0958A3D56E59AABB423A622A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HeadsAndHandsDemo/Pods-HeadsAndHandsDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadsAndHandsDemo/Pods-HeadsAndHandsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F31C8BA568072BD1594FFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadsAndHandsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34DCBABC20ADFBD700DFECAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DCBAC620ADFBD700DFECAD /* ViewController.swift in Sources */,
+				341EBB1920AE88C800E75F55 /* HHFunction.swift in Sources */,
+				34DCBAD820AE01B200DFECAD /* HHTextFieldView.swift in Sources */,
+				34DCBAC620ADFBD700DFECAD /* AuthViewController.swift in Sources */,
 				34DCBAC420ADFBD700DFECAD /* AppDelegate.swift in Sources */,
+				341EBB1B20AE948500E75F55 /* HHEndpoint.swift in Sources */,
+				34DCBADA20AE0B7900DFECAD /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +363,7 @@
 		};
 		34DCBAD320ADFBD800DFECAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7510D43F32E2C128ED70F816 /* Pods-HeadsAndHandsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +382,7 @@
 		};
 		34DCBAD420ADFBD800DFECAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA4FF7A57ABF86A6DACE4E6 /* Pods-HeadsAndHandsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
